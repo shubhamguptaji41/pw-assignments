@@ -1,0 +1,9 @@
+1. Data Redundancy: File systems led to redundant data storage, wasting space and increasing the risk of inconsistency. DBMS normalized data, reducing redundancy by structuring data efficiently.
+
+2. Data Isolation: File systems scattered related data across multiple files, making it hard to manage. DBMS centralized data storage, enabling easier access and management through structured queries.
+
+3. Data Integrity: File systems lacked centralized control over data integrity. DBMS enforced integrity constraints, ensuring data accuracy and consistency.
+
+4. Concurrency Control: File systems couldn't handle concurrent access, risking data corruption. DBMS implemented locking mechanisms to manage simultaneous access by multiple users, maintaining data consistency.
+
+5. Data Independence: File systems lacked flexibility, requiring extensive modifications with structural changes. DBMS provides data abstraction, allowing changes without affecting applications, and enhancing scalability and adaptability.

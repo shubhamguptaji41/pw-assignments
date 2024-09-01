@@ -1,0 +1,6 @@
+A file-based storage system is a method of organizing and storing data in individual files on a computer or 
+storage device. In this system, data is typically stored in a hierarchical structure, where directories (folders) 
+contain files and files may, in turn, contain data or information. Each file is a discrete unit that holds specific 
+information, and the organization is often based on the user or application's needs.
+Scalability limitations: Managing large volumes of files can become cumbersome and inefficient as the 
+number of files and folders grows. Searching and retrieving specific data can also become slow.

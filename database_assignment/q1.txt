@@ -1,0 +1,4 @@
+A database is a systematically organized and structured collection of data, designed to be easily 
+accessed, managed, and updated. It serves as a central repository for storing and organizing information in a 
+way that allows for efficient retrieval, modification, and management of data.
+Without a database, we would face challenges such as data redundancy.

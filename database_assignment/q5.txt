@@ -1,0 +1,23 @@
+1. Based on Data Model:
+   - Relational: Organizes data into tables with rows and columns.
+   - Hierarchical: Organizes data in a tree-like structure.
+   - Network: Organizes data in a network-like structure.
+   - Object-Oriented: Represents data as objects with attributes and methods.
+   - Document Stores (NoSQL): Stores data in a document-oriented format.
+
+2. Based on Access Method:
+   - Sequential: Accesses data in a sequential order.
+   - Random: Accesses data directly without sequential scanning.
+   - Indexed: Accesses data using indexes pointing to specific locations.
+
+3. Based on Number of Users:
+   - Single-user: Supports only one user at a time.
+   - Multi-user: Supports multiple users simultaneously.
+
+4. Based on Distribution of Data:
+   - Centralized: Data stored in a single location.
+   - Distributed: Data distributed across multiple locations.
+
+5. Based on Application Area:
+   - Operational: Used for day-to-day operations like transaction processing.
+   - Analytical: Used for data analysis and decision-making.

@@ -1,0 +1,19 @@
+Three-schema architecture comprises:
+
+1. **External Schema (View Level)**:
+   - **Advantages**: 
+     - Data Independence: Changes in the external schema don't affect the conceptual or internal schemas, offering flexibility.
+     - Security and Access Control: Different user views can have tailored access permissions, enhancing security.
+     - Customization: Users can interact with personalized views suited to their needs.
+
+2. **Conceptual Schema (Conceptual Level)**:
+   - **Advantages**: 
+     - Data Integration: Provides a unified view of the entire database, facilitating data integration from multiple sources.
+     - Database Design: Enables consistent design and management of the database system.
+     - Data Independence: Changes to the internal schema don't impact the conceptual or external schemas, ensuring flexibility.
+
+3. **Internal Schema (Physical Level)**:
+   - **Advantages**: 
+     - Performance Optimization: Design decisions at this level can enhance data access and storage performance.
+     - Resource Utilization: Efficient resource allocation and configuration can be done to manage storage space and access methods.
+     - Data Security and Integrity: Implementation-specific security measures can be applied to protect data and ensure integrity.
