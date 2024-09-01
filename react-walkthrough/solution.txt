@@ -1,0 +1,53 @@
+Solution 1 : -
+
+    function Person(props) {
+        return (
+            <p>
+            {props.name} is {props.age} years old.
+            </p>
+        );
+    }
+
+    // Usage
+    <Person name="John" age="30" />
+
+Solution 2 : -
+
+    function Button(props) {
+        return (
+            <button onClick={props.onClick}>
+            {props.text}
+            </button>
+        );
+    }
+
+    // Usage
+    <Button text="Click me!" onClick={() => console.log("Button clicked")} />
+
+Solution 3 : -
+
+    function Button(props) {
+        return (
+            <button onClick={props.onClick}>
+            {props.text}
+            </button>
+        );
+    }
+
+    // Usage
+    <Button text="Click me!" onClick={() => console.log("Button clicked")} />
+
+Solution 4 : - 
+
+    function List(props) {
+        const listItems = props.items.map((item) =>
+            <li key={item}>{item}</li>
+        );
+        
+        return <ul>{listItems}</ul>;
+    }
+
+    // Usage
+    <List items={['apple', 'banana', 'orange']} />
+
+
