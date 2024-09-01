@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get data from API and display it on the browser console</title>
+</head>
+<body>
+    <!-- JS Question-08 -->
+    <script>
+        fetch("https://jsonplaceholder.typecode.com/posts")
+        .then((res) => Response.json())
+        .then((data) => console.log(data))
+        .catch((err) => console.error(error));
+    </script>
+
+    
+
+    <!-- JS Question-09 -->
+    <script>
+        fetch("https://jsonplaceholder.typecode.com/posts/123456789")
+        .then((res) => {
+            if (!res.ok){
+                throw new Error("Network response was not okay");
+            }
+            return res.json();
+        }
+        );
+    </script>
+</body>
+</html>
