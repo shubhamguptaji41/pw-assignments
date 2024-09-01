@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate the percentage of the discount</title>
+    <!-- adding css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form">
+        <h1>Calculate the percentage of the discount</h1>
+
+        <label for="item">Enter Product name:</label>
+        <input type="text" id="productName" class="input" placeholder="Enter Product name" required>
+        
+        <label for="item-cost">Enter original price:</label>
+        <input type="number" id="originalPrice" class="input" placeholder="Enter Maximum Retail Price (MRP)" required>
+        
+         <label for="discount">Enter discounted price:</label>
+        <input type="number" id="discountedPrice" class="input" placeholder="Enter discounted price" required>
+        
+        <button type="submit" class="btn" id="discountedPercentage">See discount percentage</button>
+        <div class="msg" id="productDiscount"></div>
+      </form>
+      <script src="./script.js"></script>
+</body>
+</html>

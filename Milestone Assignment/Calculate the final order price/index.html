@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate the final order price</title>
+    <!-- adding css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form">
+        <h1>Bill Calculator</h1>
+
+        <label for="item">Enter item name:</label>
+        <input type="text" id="itemName" class="input" placeholder="Enter item" required>
+        
+        <label for="item-cost">Enter cost price:</label>
+        <input type="number" id="itemCost" class="input" placeholder="Enter price" required>
+        
+         <label for="quantity">Enter quantity:</label>
+        <input type="number" id="quantity" class="input" placeholder="Enter quantity" required>
+        
+        <button type="submit" class="btn" id="addBtn">Add</button>
+        <div class="msg" id="addedItemPrice"></div>
+        <button type="submit" class="btn" id="calculateBtn">Calculate Total Bill</button>
+        <div class="msg" id="totalPrice"></div>
+      </form>
+      <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highest Marks</title>
+    <!-- adding css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form" onsubmit="return highestMarks()">
+        <h1>Calculate Highest Marks</h1>
+
+        <label for="st1"> Student 1: </label>
+        <input type="number" id="st1" class="input" placeholder="Enter marks" required>
+
+        <label for="st2"> Student 2: </label>
+        <input type="number" id="st2" class="input" placeholder="Enter marks" required>
+
+        <label for="st3"> Student 3: </label>
+        <input type="number" id="st3" class="input" placeholder="Enter marks" required>
+
+        <label for="st4"> Student 4: </label>
+        <input type="number" id="st4" class="input" placeholder="Enter marks" required>
+
+        <label for="st5"> Student 5: </label>
+        <input type="number" id="st5" class="input" placeholder="Enter marks" required>
+
+        <button type="submit" class="btn" id="btn">Find highest</button>
+        <div class="msg" id="msg"></div>
+      </form>
+      <script src="./script.js"></script>
+</body>
+</html>

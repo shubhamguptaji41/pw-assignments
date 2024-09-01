@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Build a banking application</title>
+    <!-- adding css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form">
+        <h1>Banking Application</h1>
+        <h3>Check with acc no. and name</h3>
+
+        <label for="name"> Enter customer name: </label>
+        <input type="text" name="name" id="name" class="input" placeholder="Enter name" value="Hitesh Choudhary" required/>
+        
+        <label for="AccountNumber">Enter account number:</label>
+        <input type="number" id="accNum" class="input" placeholder="Enter Acc No." value="1" required>
+
+        <label for="mode">Select deposite/withdrawal</label>
+        <select name="" id="mode" class="input">
+          <option value="">---Select mode---</option>
+          <option value="deposite">Deposite Cash</option>
+          <option value="Withdraw">Withdraw Cash</option>
+        </select>
+        
+         <label for="amount">Enter Amount:</label>
+        <input type="number" id="amount" class="input" placeholder="Enter amount" required>
+        
+        <button type="submit" class="btn" id="findBtn">Find</button>
+        <div class="msg" id="customerDetails"></div>
+        <button type="submit" class="btn" id="updateBtn">Update</button>
+        <div class="msg" id="updatedDetails"></div>
+      </form>
+      <script src="./script.js"></script>
+</body>
+</html>

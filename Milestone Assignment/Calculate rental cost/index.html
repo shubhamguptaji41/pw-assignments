@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate rental cost</title>
+    <!-- adding css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form">
+        <h1>Calculate rental cost</h1>
+
+        <label for="days"> Enter number of days:</label>
+        <input type="number" id="noOfDays" class="input" placeholder="Enter number of days" required>
+        
+        <select id="CarSelection" class="input" >
+            <option value="">----Select Car Category----</option>
+            <option value="4000">Economy</option>
+            <option value="10000">Mid Size</option>
+            <option value="20000">Luxury</option>
+          </select>
+        
+        <button type="submit" class="btn" id="btn">Calculate a Rent</button>
+        <div class="msg" id="result"></div>
+      </form>
+      <script src="./script.js"></script>
+</body>
+</html>

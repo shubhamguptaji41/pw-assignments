@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill splitter</title>
+    <!-- adding css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form">
+        <h1>Bill splitter</h1>
+
+        <label for="dish">Enter Dish name:</label>
+        <input type="text" id="dishName" class="input" placeholder="Enter Dish name" required>
+        
+        <label for="dish-cost">Enter Dish cost:</label>
+        <input type="number" id="dishCost" class="input" placeholder="Enter Dish cost price" required>
+        
+         <label for="member">Enter number of people:</label>
+        <input type="number" id="noOfPeople" class="input" placeholder="Enter number of People" required>
+        
+        <button type="submit" class="btn" id="btn">Calculate</button>
+        <div class="msg" id="result"></div>
+      </form>
+      <script src="./script.js"></script>
+</body>
+</html>

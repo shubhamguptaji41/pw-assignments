@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+    <!-- Adding css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Mixer</h1>
+        <div class="main">
+        <!-- Selection 1 -->
+        <label for="color-select">
+        <select id="col1" class="input">
+            <option value="">----Select first color----</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+          </select>
+        
+          <!-- Showing add icon -->
+          <label><input type="text"  placeholder="+" class="input" disabled ></label>
+
+          <!-- Selection 2 -->
+          <select id="col2" class="input">
+            <option value="">----Select second color----</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+          </select>
+        </label>
+        </div>
+          <div class="result">
+          <button id="mix" class="btn">Mix</button>
+          <input type="text" id="output" placeholder="Output-Color" class="input" disabled>
+        </div>
+    </div>
+    <!-- Adding js file -->
+    <script src="./script.js"></script>
+</body>
+</html>
